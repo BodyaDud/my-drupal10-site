@@ -346,6 +346,7 @@ class ComposerStaticInit7f462c0e1e81602f821b8b2f59a1a946
         array (
             0 => __DIR__ . '/..' . '/league/oauth2-client/src',
             1 => __DIR__ . '/..' . '/league/oauth2-google/src',
+            2 => __DIR__ . '/..' . '/league/oauth2-facebook/src',
         ),
         'League\\Container\\' => 
         array (
