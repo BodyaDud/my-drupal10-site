@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_preprocess_HOOK() for block templates.
+ */
+function custom_profile_button_preprocess_block(&$variables) {
+  $route_name = \Drupal::routeMatch()->getRouteName();
+  $current_user = \Drupal::currentUser();
+
+  // Check if the user is logged in and if the current block is the user login block.
+  if ($current_user->isAuthenticated() && $route_name != 'user.login') {
+    $variables['content']['#markup'] = '<a href="' . Url::fromRoute('user.page')->toString() . '">Profile</a>';
+  }
+}

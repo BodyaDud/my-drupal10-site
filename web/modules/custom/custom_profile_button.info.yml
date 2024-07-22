@@ -1,0 +1,7 @@
+name: 'Custom Profile Button'
+type: module
+description: 'Replaces the login button with a profile button after user successful login.'
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:system
