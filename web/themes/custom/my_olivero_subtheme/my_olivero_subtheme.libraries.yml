@@ -1,0 +1,6 @@
+global-styling:
+  css:
+    theme:
+      css/custom.css: {}
+  dependencies:
+    - olivero/global-styling

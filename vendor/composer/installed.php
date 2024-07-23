@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5eff63b2930de27c440c031bd827c3837e1f9432',
+        'reference' => '8d7d681678426c9bc3f90a4447184024ecfc2747',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -430,7 +430,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5eff63b2930de27c440c031bd827c3837e1f9432',
+            'reference' => '8d7d681678426c9bc3f90a4447184024ecfc2747',
             'dev_requirement' => false,
         ),
         'drupal/social_api' => array(
@@ -467,6 +467,15 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/social_auth_google',
             'aliases' => array(),
             'reference' => '4.0.2',
+            'dev_requirement' => false,
+        ),
+        'drupal/tara' => array(
+            'pretty_version' => '10.1.2',
+            'version' => '10.1.2.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/tara',
+            'aliases' => array(),
+            'reference' => '10.1.2',
             'dev_requirement' => false,
         ),
         'drupal/token' => array(

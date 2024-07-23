@@ -1,17 +1,25 @@
 name: 'My Olivero Subtheme'
 type: theme
-base theme: olivero
-description: 'A subtheme of Olivero'
-package: Custom
-version: 1.0
+description: 'A subtheme of Olivero.'
 core_version_requirement: ^9 || ^10
-
+base theme: olivero
 libraries:
   - my_olivero_subtheme/global-styling
 
 regions:
   header: 'Header'
   primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: 'Highlighted'
+  breadcrumb: 'Breadcrumb'
   content: 'Content'
   sidebar_first: 'Sidebar first'
-  footer: 'Footer'
+  sidebar_second: 'Sidebar second'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+  footer_sixth: 'Footer sixth'

@@ -4,9 +4,11 @@
 .social-auth.auth-link {
   border-bottom: none;
 }
+
 .social-auth.auth-icon {
   width: 3em;
   margin-right: 5px;
+  margin-left: 42px;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;

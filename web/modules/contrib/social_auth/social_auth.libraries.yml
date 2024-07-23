@@ -2,3 +2,9 @@ auth-icons:
   css:
     theme:
       css/auth-icons.css: {}
+
+custom_js:
+  js:
+    js/custom.js: {}
+  dependencies:
+    - core/jquery

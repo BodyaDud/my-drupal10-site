@@ -2550,6 +2550,53 @@
             "install-path": "../../web/modules/contrib/social_auth_google"
         },
         {
+            "name": "drupal/tara",
+            "version": "10.1.2",
+            "version_normalized": "10.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tara.git",
+                "reference": "10.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tara-10.1.2.zip",
+                "reference": "10.1.2",
+                "shasum": "a110b080f5ec5843a4236d4919b7ee44e3ced95c"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "10.1.2",
+                    "datestamp": "1694332694",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "<p>Tara is a light weight modern Drupal 8, 9, 10 theme by <a href=\"https://drupar.com/\" target=\"_blank\">Drupar.com</a></p><p><a href=\"https://drupar.com/theme/tara\" target=\"_blank\">Theme Homepage</a> | <a href=\"https://drupar.com/tara-theme-documentation\" target=\"_blank\">User Guide</a></p>",
+            "homepage": "https://www.drupal.org/project/tara",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tara"
+            },
+            "install-path": "../../web/themes/contrib/tara"
+        },
+        {
             "name": "drupal/token",
             "version": "1.14.0",
             "version_normalized": "1.14.0.0",

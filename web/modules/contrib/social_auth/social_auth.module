@@ -259,3 +259,14 @@ function _social_auth_get_networks(): array {
 
   return $networks;
 }
+
+/**
+ * Implements hook_page_attachments().
+ */
+function social_auth_page_attachments(array &$attachments) {
+  // Check if the current path is /user/login
+  if (\Drupal::service('path.current')->getPath() === '/user/login') {
+    // Attach the custom JavaScript library only on /user/login page
+    $attachments['#attached']['library'][] = 'social_auth/custom_js';
+  }
+}
