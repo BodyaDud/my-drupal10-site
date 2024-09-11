@@ -1,15 +1,15 @@
-name: 'EliTuS'
+name: "EliTuS"
 type: theme
 base theme: false
-description: 'A EliTuS custom theme'
+description: "A EliTuS custom theme"
 package: custom
-version: '1.0.0'
+version: "1.0.0"
 core_version_requirement: ^9 || ^10
 
 libraries:
   - elitus/global-styling
 
-regions: 
+regions:
   header: Header
   content: Content
   footer: Footer
