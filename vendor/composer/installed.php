@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8d7d681678426c9bc3f90a4447184024ecfc2747',
+        'reference' => '47b3e6610e728473931cec01672759e2b9444963',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -430,7 +430,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8d7d681678426c9bc3f90a4447184024ecfc2747',
+            'reference' => '47b3e6610e728473931cec01672759e2b9444963',
             'dev_requirement' => false,
         ),
         'drupal/social_api' => array(
@@ -485,6 +485,15 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/token',
             'aliases' => array(),
             'reference' => '8.x-1.14',
+            'dev_requirement' => false,
+        ),
+        'drupal/twig_tweak' => array(
+            'pretty_version' => '3.4.0',
+            'version' => '3.4.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/twig_tweak',
+            'aliases' => array(),
+            'reference' => '3.4.0',
             'dev_requirement' => false,
         ),
         'drupal/views_templates' => array(

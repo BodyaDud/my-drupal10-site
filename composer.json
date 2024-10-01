@@ -30,6 +30,7 @@
         "drupal/social_auth_facebook": "^4.0",
         "drupal/social_auth_google": "^4.0",
         "drupal/tara": "^10.1",
+        "drupal/twig_tweak": "^3.4",
         "drupal/views_templates": "^1.5",
         "drush/drush": "^12.5"
     },

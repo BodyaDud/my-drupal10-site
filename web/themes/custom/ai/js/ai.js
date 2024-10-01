@@ -3,15 +3,11 @@
  * AI behaviors.
  */
 (function (Drupal) {
-
-  'use strict';
+  "use strict";
 
   Drupal.behaviors.ai = {
-    attach (context, settings) {
-
-      console.log('It works!');
-
-    }
+    attach(context, settings) {
+      console.log("It works!");
+    },
   };
-
-} (Drupal));
+})(Drupal);
